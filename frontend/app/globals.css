@@ -1,0 +1,110 @@
+:root {
+  color-scheme: light dark;
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #0b1021;
+  color: #e8ecf1;
+}
+
+.page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 32px 20px 60px;
+}
+
+.hero {
+  margin-bottom: 28px;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px;
+  color: #7bd6ff;
+  margin: 0 0 4px;
+}
+
+h1 {
+  margin: 0 0 6px;
+  font-size: 32px;
+}
+
+.subhead {
+  margin: 0;
+  color: #a6afc1;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+.card {
+  background: linear-gradient(135deg, #161d36, #0f1426);
+  border: 1px solid #1f2a48;
+  border-radius: 10px;
+  padding: 16px;
+}
+
+.channel {
+  margin: 0 0 12px;
+  font-weight: 600;
+}
+
+.label {
+  margin: 0;
+  color: #9da9c0;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+}
+
+.word {
+  margin: 6px 0 4px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.count {
+  margin: 0;
+  color: #8bd7a0;
+}
+
+.muted {
+  color: #92a0b8;
+}
+
+.history {
+  margin-top: 36px;
+}
+
+.history h2 {
+  margin-bottom: 12px;
+}
+
+.table {
+  border: 1px solid #1f2a48;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 0.5fr;
+  gap: 8px;
+  padding: 10px 12px;
+}
+
+.row:nth-child(odd) {
+  background: #10162b;
+}
+
+.row.head {
+  background: #1a2440;
+  font-weight: 600;
+}
+
